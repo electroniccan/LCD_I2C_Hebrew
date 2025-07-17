@@ -13,6 +13,7 @@ public:
     void write(uint8_t value);
     void print(const char* text);
     void printHebrew(const char* text);
+    void loadHebrewToCGRAM(const char* chars);
 
 private:
     uint8_t _addr;
